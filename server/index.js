@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 
 //DB setup
 //this creates a new db inside mongo called 'auth'
-mongoose.connect('mongodb://localhost:auth/auth');
+mongoose.connect('mongodb://localhost:/auth');
 
 //App setup
 
